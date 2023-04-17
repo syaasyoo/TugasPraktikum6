@@ -15,6 +15,7 @@
   $JK=$_GET['JK'];
   $alamat=$_GET['alamat'];
   $agama=$_GET['agama'];
+  include "waktu.php";
   
 
   if($npm && $Nama &&  $jurusan &&  $Tempat && $Thn && $Tgl && $Bln && $JK 
@@ -49,6 +50,10 @@
   <tr>
      <td>Alamat: </td>
      <td>: $alamat</td>
+  </tr>
+  <tr>
+      <td>Biodata Tersimpan: </td>
+      <td>: $tanggal $waktu</td>
   </tr>
    </table>";
   }
