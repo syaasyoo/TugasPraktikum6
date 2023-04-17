@@ -49,11 +49,11 @@
   </tr>
   <tr>
      <td>Alamat: </td>
-     <td>: $alamat</td>
+     <td> $alamat</td>
   </tr>
   <tr>
       <td>Biodata Tersimpan: </td>
-      <td>: $tanggal $waktu</td>
+      <td> $tanggal $waktu</td>
   </tr>
    </table>";
   }
